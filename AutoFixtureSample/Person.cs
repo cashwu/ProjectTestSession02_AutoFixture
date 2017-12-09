@@ -12,5 +12,9 @@ namespace AutoFixtureSample
 
         [Range(18, 80)]
         public int Age { get; set; }
+
+        public int Test { get; set; }
+
+        public DateTime CreateTime { get; set; }
     }
 }
